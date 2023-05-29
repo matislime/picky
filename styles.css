@@ -19,7 +19,7 @@ body {
     margin-bottom: 80px;
   }
   
-  #option1 {
+  .option {
     font-size: 24px;
     font-family: sans-serif;
     color: black;
