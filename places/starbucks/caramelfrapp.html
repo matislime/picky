@@ -3,7 +3,7 @@
 <head>
   <title>Picky Homepage</title>
   <link rel="stylesheet" type="text/css" href="starbucks.css">
-  <script src="starbucks.js"></script>
+  <script src="https://kit.fontawesome.com/e60fa7b819.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <div class="container">
@@ -12,14 +12,33 @@
     <div class="review">
         <p>How do you like this drink?</p>
         <div class="rating">
-        <span class="star" data-value="1"></span>
-        <span class="star" data-value="2"></span>
-        <span class="star" data-value="3"></span>
-        <span class="star" data-value="4"></span>
-        <span class="star" data-value="5"></span>
+        <a href="#" class="fa-regular fa-star" data-value="1"></a>
+        <a href="#" class="fa-regular fa-star" data-value="2"></a>
+        <a href="#" class="fa-regular fa-star" data-value="3"></a>
+        <a href="#" class="fa-regular fa-star" data-value="4"></a>
+        <a href="#" class="fa-regular fa-star" data-value="5"></a>
         </div>
-        <p class="selected-rating">choose</p>
+        <p class="selected-rating"></p>
     </div>
   </div>
+
+  <script>
+    const stars = document.querySelectorAll('.rating a');
+    console.log(stars);
+
+    stars.forEach((item1, idx1) => {
+      item1.addEventListener('click', () => {
+        stars.forEach((item2, idx2) => {
+          if (idx1 >= idx2) {
+            item2.classList.add('fas');
+            item2.classList.remove('fa-regular');
+          } else {
+            item2.classList.add('fa-regular');
+            item2.classList.remove('fas');
+          }
+        })
+      })
+    })
+  </script>
 </body>
 </html>
