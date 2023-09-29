@@ -7,12 +7,8 @@ html {
 header {
   text-align: center;
   border-radius: 5%;
-  background-color: rosybrown;
+  background-color: gray;
   margin: 20px;
-}
-
-main {
-  text-align: center;
 }
 
 .title {
@@ -22,6 +18,18 @@ main {
 
 .option {
   font-size: 150%;
+}
+
+main {
+  text-align: center;
+}
+
+.story {
+  border: solid 2px black;
+  border-radius: 1cm;
+  background-color: lightgray;
+  margin: 20px;
+  padding: 5%;
 }
 
 .founder {
