@@ -41,6 +41,10 @@ header, main {
   font-weight: bold;
 }
 
+#logo {
+  border-radius: 1cm;
+}
+
 footer {
   border-top: solid;
 }
