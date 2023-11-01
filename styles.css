@@ -24,12 +24,13 @@ header, main {
 }
 
 #secondary-title {
+  font-size: x-large;
   text-align: left;     
   padding-bottom: 5px;
   border-bottom: solid 2px;
 }
 
-.story {
+#story {
   border: solid 2px black;
   border-radius: 1cm;
   background-color: lightgray;
@@ -37,8 +38,27 @@ header, main {
   padding: 5%;
 }
 
-.founder {
+#brand {
   font-weight: bold;
+  font-style: italic;
+}
+
+#founder {
+  font-weight: bold;
+}
+
+#staricon {
+  width: 15%;
+  float: right;
+}
+
+#howitworks {
+  border: solid 2px black;
+  border-radius: 1cm;
+  background-color: lightgray;
+  margin: 20px;
+  padding: 5%;
+  text-align: left;
 }
 
 #logo {
