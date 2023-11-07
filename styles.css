@@ -73,12 +73,13 @@ header, main {
 }
 
 footer {
+  position: relative;
   border-top: solid;
   margin: 0;
 }
 
 #banner {
-  position: relative;
+  position: absolute;
   width: 100%;
   z-index: -1;
 }
@@ -89,7 +90,7 @@ footer {
 }
 
 #top {
-  position: relative;
-  float: right;
-  bottom: 0px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
