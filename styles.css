@@ -4,6 +4,13 @@ html {
   font-size: 12pt;
 }
 
+body {
+  margin: auto;
+  padding: 0;
+  max-width: 600px;
+  min-width: 400px;
+}
+
 header {
   border-radius: 1cm;
   background-color: #F4ECCC;
@@ -48,7 +55,6 @@ header, main {
 }
 
 #logo {
-  border-radius: 1cm;
   width: 100%;
 }
 
@@ -68,16 +74,22 @@ header, main {
 
 footer {
   border-top: solid;
+  margin: 0;
 }
 
 #banner {
-  position: absolute;
+  position: relative;
   width: 100%;
   z-index: -1;
 }
 
+#footertext {
+  margin-top: 4%;
+  margin-left: 4%;
+}
+
 #top {
-  position: absolute;
-  right: 0px;
-  bottom: 5px;
+  position: relative;
+  float: right;
+  bottom: 0px;
 }
