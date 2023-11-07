@@ -6,7 +6,7 @@ html {
 
 header {
   border-radius: 1cm;
-  background-color: gray;
+  background-color: #F4ECCC;
   margin: 20px;
 }
 
@@ -47,6 +47,11 @@ header, main {
   font-weight: bold;
 }
 
+#logo {
+  border-radius: 1cm;
+  width: 100%;
+}
+
 #staricon {
   width: 15%;
   float: right;
@@ -61,10 +66,18 @@ header, main {
   text-align: left;
 }
 
-#logo {
-  border-radius: 1cm;
-}
-
 footer {
   border-top: solid;
+}
+
+#banner {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+#top {
+  position: absolute;
+  right: 0px;
+  bottom: 5px;
 }
