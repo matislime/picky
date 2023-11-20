@@ -22,8 +22,13 @@ header {
   font-weight: normal;
 }
 
-.option {
+ul {
+  display: flex;
+}
+
+li {
   font-size: 125%;
+  margin: 15px;
 }
 
 header, main {
