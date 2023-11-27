@@ -17,22 +17,27 @@ header {
   margin: 20px;
 }
 
+header, main {
+  text-align: center;
+}
+
 .title {
   font-size: 350%;
   font-weight: normal;
 }
 
-ul {
+#navigation {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-li {
+.option {
   font-size: 125%;
-  margin: 15px;
-}
-
-header, main {
-  text-align: center;
+  margin: 3%;
+  background-color: lightgray;
+  padding: 2%;
+  border-radius: 10%;
 }
 
 #secondary-title {
@@ -81,12 +86,6 @@ footer {
   position: relative;
   border-top: solid;
   margin: 0;
-}
-
-#banner {
-  position: absolute;
-  width: 100%;
-  z-index: -1;
 }
 
 #footertext {
