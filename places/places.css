@@ -15,6 +15,16 @@ header, main {
   text-align: center;
 }
 
+.title {
+  font-size: 350%;
+  font-weight: normal;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .option {
   text-align: center;
   border: solid 2px black;
@@ -22,11 +32,6 @@ header, main {
   margin: 20px;
   padding: 5%;
   font-size: 150%
-}
-
-.title {
-  font-size: 350%;
-  font-weight: normal;
 }
 
 .logo {
