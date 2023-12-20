@@ -34,6 +34,15 @@ header, main {
   font-size: 150%
 }
 
+.soon-option {
+  text-align: center;
+  border: dashed 2px black;
+  border-radius: 1cm;
+  margin: 20px;
+  padding: 5%;
+  font-size: 150%
+}
+
 .logo {
   width: 100%;
   z-index: -1;
