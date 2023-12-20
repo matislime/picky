@@ -11,6 +11,12 @@ body {
   min-width: 400px;
 }
 
+header {
+  border-radius: 1cm;
+  background-color: #F4ECCC;
+  margin: 20px;
+}
+
 header, main {
   text-align: center;
 }
@@ -20,12 +26,18 @@ header, main {
   font-weight: normal;
 }
 
+#navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-.option {
+.place {
   text-align: center;
   border: solid 2px black;
   border-radius: 1cm;
@@ -34,7 +46,7 @@ header, main {
   font-size: 150%
 }
 
-.soon-option {
+.soon-place {
   text-align: center;
   border: dashed 2px black;
   border-radius: 1cm;
