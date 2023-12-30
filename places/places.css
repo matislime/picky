@@ -32,6 +32,15 @@ header, main {
   justify-content: space-around;
 }
 
+.option {
+  font-size: 125%;
+  margin: 3%;
+  background-color: lightgray;
+  padding: 2%;
+  border-radius: 10%;
+  flex-grow: 1;
+}
+
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
